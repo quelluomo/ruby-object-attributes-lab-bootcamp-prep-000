@@ -1,19 +1,15 @@
 class Person
-  
-  def name=(person_name)
-    @name = person_name
+ 
+  def initialize(name)
+    @name = name
   end
-  
-   def name
+ 
+  def name
     @name
   end
-  
-   def breed=(dog_breed)
-    @breed = dog_breed
+ 
+  def name=(new_name)
+    @name = new_name
   end
-  
-   def breed
-    @breed
-  end
-  
- end
+ 
+end
