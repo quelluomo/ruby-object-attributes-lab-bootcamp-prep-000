@@ -18,7 +18,5 @@ class Person
   end
 end
  
-def name=
+def name=Fido 
  
-kanye = Person.new("Kanye")
-kanye.name #=> "Kanye"
