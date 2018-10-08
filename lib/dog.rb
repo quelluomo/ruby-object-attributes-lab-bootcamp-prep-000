@@ -18,5 +18,7 @@ class Person
   end
 end
  
+def name=
+ 
 kanye = Person.new("Kanye")
 kanye.name #=> "Kanye"
