@@ -18,5 +18,3 @@ class Person
   end
 end
  
-def name=Fido 
- 
